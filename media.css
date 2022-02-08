@@ -1,0 +1,12 @@
+@media (max-width: 980px) {
+    .logo {
+        flex-grow: 1;
+    }
+    .menu-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 720px) {}
+
+@media (max-width: 640px) {}
