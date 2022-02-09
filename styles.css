@@ -59,7 +59,7 @@ body {
     display: none;
     width: 100%;
     position: absolute;
-    top: 55px;
+    top: 50px;
     background: #fff;
 }
 
@@ -311,8 +311,122 @@ body {
 }
 
 .styles {
-    margin: 30px 0;
+    margin: 40px 0;
     text-align: center;
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+/* section-recomend*/
+
+.recomend-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.first-recomend-good {
+    position: relative;
+    width: 48%;
+    background: #000;
+}
+
+.first-recomend-good img {
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.first-recomend-good img:hover {
+    opacity: .4;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+}
+
+.main-good-folder {}
+
+.rest-recomend-goods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 2%;
+    width: 50%;
+}
+
+.rest-recomend-good-item img {
+    max-width: 97%;
+    height: auto;
+    display: block;
+}
+
+
+/* FOOTER */
+
+.footer-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-item-header {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    line-height: 2;
+}
+
+
+/* .footer-item-customer,
+.footer-item-about {
+    flex-grow: 1;
+}
+
+.footer-item-email {
+    flex-grow: 2;
+} */
+
+.email {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #C4C4C4;
+    width: 452px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sub-btn {
+    width: 150px;
+    height: 36px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    margin-left: 300px;
 }

@@ -5,6 +5,9 @@
     .menu-icon {
         display: block;
     }
+    .rest-recomend-good-item {
+        width: 48%;
+    }
 }
 
 @media (max-width: 720px) {
@@ -33,6 +36,20 @@
     .main-information {
         width: 100%;
         padding: 0 30px;
+    }
+    .first-recomend-good {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .rest-recomend-goods {
+        width: 100%;
+    }
+    .rest-recomend-good-item {
+        width: 49%;
+        margin-bottom: 2%;
+    }
+    .rest-recomend-good-item img {
+        max-width: 100%;
     }
 }
 
