@@ -40,6 +40,15 @@
     }
     .footer-inner {
         flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .footer-item-customer,
+    .footer-item-about {
+        width: 40%;
+        text-align: left;
+    }
+    .footer-item-header {
+        text-align: left;
     }
 }
 
@@ -79,5 +88,11 @@
     .main-image_small-items_pic {
         width: 50px;
         height: 70px;
+    }
+    .email {
+        width: 335px;
+    }
+    .sub-btn {
+        margin-left: 175px;
     }
 }
