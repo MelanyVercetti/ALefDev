@@ -5,8 +5,27 @@
     .menu-icon {
         display: block;
     }
+    .modal {
+        display: none;
+    }
+    .first-recomend-good,
     .rest-recomend-good-item {
-        width: 48%;
+        background: none;
+    }
+    .rest-recomend-goods {
+        width: 49%;
+    }
+    .rest-recomend-good-item {
+        width: 50%;
+    }
+    .rest-recomend-good-item img {
+        max-width: 94%;
+    }
+    .first-recomend-good img:hover {
+        opacity: 1;
+    }
+    .rest-recomend-good-item img:hover {
+        opacity: 1;
     }
 }
 
@@ -18,6 +37,9 @@
     .main-information_add {
         flex-wrap: wrap;
         row-gap: 20px;
+    }
+    .footer-inner {
+        flex-wrap: wrap;
     }
 }
 
