@@ -72,3 +72,13 @@ document.querySelector('.add-btn').addEventListener('click', () => {
         alert('Товар не выбран!')
     }
 });
+
+// email input
+
+const emailInput = document.querySelector('.email');
+const clearEmailBtn = document.querySelector('.clear-email');
+
+clearEmailBtn.addEventListener('click', () => {
+    console.log('click')
+    emailInput.value = '';
+})

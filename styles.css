@@ -484,6 +484,10 @@ a {
     flex-grow: 2;
 } */
 
+.email-form {
+    position: relative;
+}
+
 .email {
     border-top: none;
     border-right: none;
@@ -493,6 +497,13 @@ a {
     padding: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.clear-email {
+    position: absolute;
+    right: 5px;
+    top: 37px;
+    cursor: pointer;
 }
 
 .sub-btn {

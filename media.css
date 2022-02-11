@@ -50,6 +50,13 @@
     .footer-item-header {
         text-align: left;
     }
+    .email {
+        width: 335px;
+    }
+    .clear-email {
+        right: 124px;
+        top: 37px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -91,6 +98,10 @@
     }
     .email {
         width: 335px;
+    }
+    .clear-email {
+        right: 13px;
+        top: 37px;
     }
     .sub-btn {
         margin-left: 175px;
