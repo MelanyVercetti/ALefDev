@@ -82,3 +82,19 @@ clearEmailBtn.addEventListener('click', () => {
     console.log('click')
     emailInput.value = '';
 })
+
+// email validation
+
+const subBtn = document.querySelector('.sub-btn');
+
+const validateEmail = email => {
+    const reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    if (reg.test(email) == false) {
+        alert('Введите корректный e-mail');
+        return false;
+    } else {
+        alert('e-mail принят');
+    }
+}
+
+subBtn.addEventListener('click', () => validateEmail(emailInput.value))
