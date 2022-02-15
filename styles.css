@@ -315,6 +315,11 @@ body {
     cursor: pointer;
 }
 
+.counter-add:hover,
+.counter-rem:hover {
+    background: #bbb9b9;
+}
+
 .add-btn {
     width: 203px;
     height: 44px;
