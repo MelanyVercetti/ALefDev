@@ -58,6 +58,7 @@ body {
     font-weight: bold;
     font-size: 22px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .menu-btns img {
@@ -176,6 +177,7 @@ body {
     height: 91px;
     display: block;
     margin: 5px;
+    cursor: pointer;
 }
 
 .main-information {
@@ -409,6 +411,7 @@ body {
 
 .first-recomend-good img:hover {
     opacity: .4;
+    cursor: pointer;
 }
 
 .modal {
@@ -417,11 +420,6 @@ body {
     z-index: 1;
     width: 100%;
     height: auto;
-    cursor: pointer;
-}
-
-.modal:nth-child() {
-    cursor: pointer;
 }
 
 .main-good-folder {
@@ -488,6 +486,7 @@ body {
 
 .rest-recomend-good-item img:hover {
     opacity: .4;
+    cursor: pointer;
 }
 
 .rest-good-folder {
